@@ -1,0 +1,46 @@
+/* Cabelhaço */
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+}
+
+.logo a {
+    width: 221px;
+    height: 48px;
+    float: left;
+    background: url(../../../public/img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+  
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    /* medidas sempre da esquerda pra direita, de cima pra baixo */
+    border-radius: 10px 0 0 10px;
+}
+  
+.cabecalho button {
+    /* largura do botão */
+    width: 15%;
+    /* flutuar á direita */
+    float: right;
+    /* espaçamento vertical, horizontal */
+    /* 1em = 16px */
+    padding: 15px 10px;
+    /* mudar a cor de fundo */
+    background-color: #0cae98;
+    /* mudar a cor do próprio elemento */
+    color: #fff;
+    /* altera o desenho do mouse */
+    cursor: pointer;
+    /* arredonda as bordas */
+    border-radius: 0 10px 10px 0;
+}
