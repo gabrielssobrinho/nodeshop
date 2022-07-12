@@ -5,13 +5,21 @@ export default function Main() {
     return (
       <main className={styles.principal}>
         <article className={styles.sobre}>
-          <h2>Sobre Nós</h2>
+          <h2><span></span>Sobre Nós</h2>
             <img src='img/loja.jpg' alt='Essa imagem retrata um vendedor sorrindo e ofertando um notebook para um casal. O vendedor está vestido com camisa social branca, o homem está vestido com uma camisa social azul, e a mulher está vestida com uma camisa social azul com uma tonalidade muito clara. E ao fundo da imagem é possível ver alguns monitores.' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio officiis in non. Rerum quo tenetur molestias laborum, in suscipit accusantium provident ab vel, inventore eligendi, delectus est molestiae tempore odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloribus iusto quidem ratione fugiat, aperiam error minus quia, minima veniam nostrum quaerat, in numquam maxime pariatur? Natus a nostrum sunt.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia blanditiis earum rem architecto reprehenderit quidem nostrum harum, nisi ad distinctio. Veniam numquam, impedit libero nulla explicabo autem eius adipisci perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, amet. Deleniti laborum maiores modi incidunt excepturi, expedita error delectus rem in laudantium dolor, nesciunt neque perferendis tenetur molestiae placeat! Tempore.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officia ratione magnam veniam tempore. Quos cumque libero veritatis. Nihil, enim temporibus! Reiciendis at qui rem modi ipsum dolorem fugit laudantium.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dignissimos labore, cumque maxime delectus vitae earum vel eius, nobis aspernatur, enim ullam fugiat! Fugiat laudantium veritatis quis laboriosam magnam provident.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores reiciendis voluptas aperiam, quaerat inventore id consequatur nulla ducimus placeat accusamus sunt quasi natus dolorum. Sint aperiam cum rem fuga?</p>
+            <p><h2>Referência no Brasil</h2>
+Há mais de 20 anos atuando na venda e distribuição de produtos de Informática, Eletrônicos, Games e Telefonia, o Balão da Informática se tornou referência no Brasil no que se refere à qualidade dos produtos comercializados com o melhor custo benefício.</p>
+<br></br>
+<p><h2>Montamos uma grande estrutura para você, de verdade.</h2>
+Atualmente trabalhamos apenas com vendedores homologados, que conhecem a operação e apoiam a satisfação de nossos consumidores em primeiro lugar. Nós trabalhamos com um mix de 5000 produtos para melhor te atender.</p>
+<br></br>
+<p><h2>Somente produtos de procedência certificada</h2>
+O NodeShop comercializa produtos diretamente provenientes dos fabricantes, dos distribuidores oficiais ou de lojas parceiras, portanto, os clientes encontrarão somente produtos de qualidade e com garantia conjunta de nossa empresa e do canal responsável.</p>
+<br></br>
+<p><h2>Nosso compromisso é com você</h2>
+Em parceria com as maiores marcas da informática mundial, os esforços de nossa empresa estão direcionados para a constante melhoria de atendimento e para o alcance da completa satisfação de nossos clientes.</p>
+<br></br>
+            
         </article>
         <aside className={styles.onde_estamos}>
           <h2> Onde estamos </h2>
@@ -19,9 +27,9 @@ export default function Main() {
             <iframe src={iframe} title={iframe}></iframe>
           <h2>Contatos</h2>
           <ul>
-            <li><i className='fa-solid fa-phone'></i> (11) 91234-5678</li>
-            <li><i className='fa-brands fa-whatsapp'></i> (11) 98765-4321</li>
-            <li><i className='fa-solid fa-at'></i>  abcdefghijk@email.com</li>
+            <li><i className='fa-solid fa-phone'></i> (11) 99509-6033</li>
+            <li><i className='fa-brands fa-whatsapp'></i> (11) 99509-6033</li>
+            <li><i className='fa-solid fa-at'></i>gabrielsobrinho.contato@gmail.com</li>
           </ul>
         </aside>
       </main>
