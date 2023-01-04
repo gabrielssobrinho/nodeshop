@@ -6,6 +6,6 @@ Projeto elaborando um website de uma loja de informática.
 
 * Visual Studio Code.
 * Node.
-* Npm (npx create-react-app netflix-clone).
+* Npm (npx create-react-app node-shop).
 
 Acesse: https://gabrielssobrinho.github.io/nodeshop/.
